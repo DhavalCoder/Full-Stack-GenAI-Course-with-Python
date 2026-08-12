@@ -20,3 +20,9 @@ brew_thread = threading.Thread(target=brew_chai)
 
 order_thread.start()
 brew_thread.start()
+
+#wait to both to finsh
+order_thread.join()
+brew_thread.join()
+
+print("All orders taken and chai brewed")
