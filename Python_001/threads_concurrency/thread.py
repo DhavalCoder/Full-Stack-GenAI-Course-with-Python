@@ -4,14 +4,14 @@ import time
 def take_orders():
     for i in range(1,4):
         print(f"Taking order for #{i}")
-        time.sleep(1)
+        time.sleep(2)
 
 
 
 def brew_chai():
     for i in range(1,4):
             print(f"Brewing chai for #{i}")
-            time.sleep(2)
+            time.sleep(3)
 
 
 # Creating Threads
