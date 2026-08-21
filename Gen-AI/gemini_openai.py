@@ -34,11 +34,13 @@ response = client.chat.completions.create(
         {   "role": "system",
             "content": SYSTEM_PROMPT
         },
+        
         {
             "role": "user",
             "content": "Write a code to add n number in js?"
         }
     ]
 )
+
  
 print(response.choices[0].message.content)

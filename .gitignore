@@ -1,1 +1,27 @@
-﻿.env
+# Environments
+.env
+.env.*
+*.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Secrets / Keys
+secrets.json
+*.key
+*.pem
+client_secrets.json
+credentials.json
+auth.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
